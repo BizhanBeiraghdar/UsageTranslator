@@ -31,24 +31,24 @@ This application is designed to be modular and maintainable, with a focus on cle
 
 <pre>
    UsageTranslator/
-      UsageTranslator/
-      ├── Data/
-      │ ├── Sample_Report.csv
-      │ └── typemap.json
-      ├── Models/
-      │ ├── ChargeableRecord.cs
-      │ └── DomainRecord.cs
-      ├── Output/
-      │ └── output.sql
-      ├── Services/
-      │ ├── CsvFileParser.cs
-      │ ├── JsonMapper.cs
-      │ └── SqlBuilder.cs   
-      └── Program.cs
-      UsageTranslator.Tests/
-         ├── Services/
-           ├── CsvFileParserTests.cs
-           └── SqlBuilderTests.cs
+   │  UsageTranslator/
+   │  ├── Data/
+   │  │ ├── Sample_Report.csv
+   │  │ └── typemap.json
+   │  ├── Models/
+   │  │ ├── ChargeableRecord.cs
+   │  │ └── DomainRecord.cs
+   │  ├── Output/
+   │  │ └── output.sql
+   │  ├── Services/
+   │  │ ├── CsvFileParser.cs
+   │  │ ├── JsonMapper.cs
+   │  │ └── SqlBuilder.cs   
+   │  └── Program.cs
+   │  UsageTranslator.Tests/
+   │     ├── Services/
+   │       ├── CsvFileParserTests.cs
+   │       └── SqlBuilderTests.cs
    └── README.md
 </pre>
 
