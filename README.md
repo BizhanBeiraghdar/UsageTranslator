@@ -2,7 +2,7 @@
 
 A C# console application that reads usage data from a CSV file and maps it to product codes using a JSON typemap. It generates SQL `INSERT` statements for two normalized database tables: `chargeable` and `domains`.
 
-This application is designed to be modular and maintainable, with a focus on clean code practices. It includes unit tests to ensure the correctness of the functionality.
+This application has been designed to be modular and maintainable, using clean code practices. It includes unit tests to ensure the correctness of the functionality.
 
 ---
 
