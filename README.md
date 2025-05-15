@@ -45,11 +45,11 @@ This application is designed to be modular and maintainable, with a focus on cle
       │ ├── JsonMapper.cs
       │ └── SqlBuilder.cs   
       └── Program.cs
-      └── README.md
-   UsageTranslator.Tests/
-      ├── Services/
-        ├── CsvFileParserTests.cs
-        └── SqlBuilderTests.cs 
+      UsageTranslator.Tests/
+         ├── Services/
+           ├── CsvFileParserTests.cs
+           └── SqlBuilderTests.cs
+   └── README.md
 </pre>
 
 ## Run the Application
