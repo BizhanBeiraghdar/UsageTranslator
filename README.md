@@ -36,21 +36,20 @@ This application is designed to be modular and maintainable, with a focus on cle
       │ ├── Sample_Report.csv
       │ └── typemap.json
       ├── Models/
-        ├── ChargeableRecord.cs
-        └── DomainRecord.cs
+      │ ├── ChargeableRecord.cs
+      │ └── DomainRecord.cs
       ├── Output/
-        └── output.sql
+      │ └── output.sql
       ├── Services/
-        ├── CsvFileParser.cs
-        ├── JsonMapper.cs
-        └── SqlBuilder.cs   
+      │ ├── CsvFileParser.cs
+      │ ├── JsonMapper.cs
+      │ └── SqlBuilder.cs   
       └── Program.cs
       └── README.md
    UsageTranslator.Tests/
       ├── Services/
-      │ ├── CsvFileParser.cs
-      │ ├── JsonMapper.cs
-      │ └── SqlBuilder.cs 
+        ├── CsvFileParserTests.cs
+        └── SqlBuilderTests.cs 
 </pre>
 
 ## Run the Application
