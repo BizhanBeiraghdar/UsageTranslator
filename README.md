@@ -10,7 +10,7 @@ This application is designed to be modular and maintainable, with a focus on cle
 
 - Reads and parses `Sample_Report.csv`
 - Maps `PartNumber` to product using `typemap.json`
-- Cleans `accountGuid` to alphanumeric string
+- Cleans `accountGuid` to an alphanumeric string
 - Skips invalid or excluded records (e.g. `PartnerID == 26392`)
 - Applies unit reduction rules for specific part numbers
 - Tracks and logs total usage per product
@@ -48,7 +48,7 @@ This application is designed to be modular and maintainable, with a focus on cle
    │  UsageTranslator.Tests/
    │     ├── Services/
    │     │ ├── CsvFileParserTests.cs
-   │     └ └── SqlBuilderTests.cs
+   │     │ └── SqlBuilderTests.cs
    └── README.md
 </pre>
 
@@ -66,8 +66,8 @@ You can run this application using the command line or from within Visual Studio
 ### Visual Studio
 1. Open the project in Visual Studio.
 1. Set the project as the startup project.
-1. Press `F5` or click on the "Start" button to run the application.
+1. Press `F5` or click the "Start" button to run the application.
 1. The output will be generated in the `Output` directory as `output.sql`.
 1. You can also run the unit tests by right-clicking on the project in Solution Explorer and selecting "Run Tests" or using the Test Explorer window.
 1. The application will read the `Sample_Report.csv` file, process the data, and generate SQL insert statements for the `chargeable` and `domains` tables. The output will be saved in the `Output` directory as `output.sql`.
-1. You can open the `output.sql` file to view the generated SQL statements.
+1. Open the `output.sql` file to view the generated SQL statements.
