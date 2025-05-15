@@ -47,8 +47,8 @@ This application is designed to be modular and maintainable, with a focus on cle
    │  └── Program.cs
    │  UsageTranslator.Tests/
    │     ├── Services/
-   │     │ ├── CsvFileParserTests.cs
-   │     │ └── SqlBuilderTests.cs
+   │     │   ├── CsvFileParserTests.cs
+   │     └── └── SqlBuilderTests.cs
    └── README.md
 </pre>
 
