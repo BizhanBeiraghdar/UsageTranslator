@@ -24,6 +24,7 @@ jobs:
 
     - name: Build
       run: dotnet build --no-restore --configuration Release
-
+    
     - name: Run tests
-      run: dotnet test UsageTranslator.Tests/UsageTranslator.Tests.csproj --no-build --verbosity normal
+      run: dotnet test UsageTranslator.Tests/UsageTranslator.Tests.csproj --configuration Release --no-build --verbosity normal
+
